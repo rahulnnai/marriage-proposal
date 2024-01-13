@@ -15,14 +15,14 @@ function clickyes() {
     let text = document.getElementById('text');
     let yesbt = document.getElementById('yes');
     let nobt = document.getElementById('no');
-    let propimg = document.getElementById('propimg');
-  
 
-    image.src = 'assets/dance.gif';
-    image.alt = 'dance-video';
-    propimg.style.height = '336px';
-    propimg.style.width = '592px';
-    text.innerHTML = "In your 'yes', my world found its forever.";
+
+        image.src = 'assets/dance.gif';
+        image.id = 'dancegif';
+        image.alt = 'dance-video';
+        image.style.height = '336px';
+        image.style.width = '592px';
+        text.innerHTML = "In your 'yes', my world found its forever.";
 
     yesbt.parentNode.removeChild(yesbt);
     nobt.parentNode.removeChild(nobt);
