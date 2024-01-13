@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+#propimg {
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px 5px 0px rgba(252, 232, 228, 0.5);
+}
+
+.main {
+    color: red;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns input {
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    border-color: rgb(228, 152, 105);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
+}
+
+#no {
+    padding-left: 22px;
+    padding-right: 23px;
+    position: absolute;
+    transition: all 0.7s ease;
+}
+
+.btns {
+    padding-left: 42.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .btns {
+        padding-left: 18%;
+        margin-top: 15px;
+    }
+}
+
+#yes {
+    margin-right: 80px;
+}
+
+#allContent {
+    padding-top: 7%;
+}
+
+#mine {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 26px;
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+#mine span {
+    text-align: center;
+    color: red;
+    font-size: 27px;
+    margin-right: 28px;
+    margin-top: -15px;
+
+}
+
+#mine p {
+    margin-top: auto;
+    margin-right: 8px;
+    margin-top: -14px;
+}
